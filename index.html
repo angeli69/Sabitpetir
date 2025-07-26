@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judol - Sabit Bet 200</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #212121;
+            color: #fff;
+        }
+        header {
+            background: #ff9800;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #292929;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+        }
+        .games {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: space-between;
+        }
+        .game-card {
+            flex: 1 1 220px;
+            background: #333;
+            border-radius: 7px;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.13);
+            margin-bottom: 16px;
+        }
+        .game-card h3 {
+            margin: 12px 0 8px 0;
+            color: #ff9800;
+        }
+        .cta {
+            display: block;
+            width: 180px;
+            margin: 30px auto 0;
+            background: #ff9800;
+            color: #fff;
+            text-align: center;
+            font-size: 1.2em;
+            padding: 13px 0;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .cta:hover {
+            background: #e65100;
+        }
+        footer {
+            background: #191919;
+            text-align: center;
+            color: #aaa;
+            padding: 14px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .games {
+                flex-direction: column;
+                gap: 16px;
+            }
+            .game-card {
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sabit-Bet200</h1>
+        <p>Slot | Poker | Casino | Sportsbook</p>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Permainan</a>
+        <a href="#">Promosi</a>
+        <a href="#">Daftar</a>
+        <a href="#">Masuk</a>
+    </nav>
+    <div class="container">
+        <h2>Pilihan Permainan Populer</h2>
+        <div class="games">
+            <div class="game-card">
+                <h3>Slot Online</h3>
+                <p>Mainkan ratusan game slot online dengan jackpot besar setiap hari!</p>
+            </div>
+            <div class="game-card">
+                <h3>Poker</h3>
+                <p>Rasakan sensasi bermain poker online melawan pemain lain secara real-time.</p>
+            </div>
+            <div class="game-card">
+                <h3>Casino Live</h3>
+                <p>Nikmati permainan casino live seperti blackjack, roulette, dan baccarat.</p>
+            </div>
+            <div class="game-card">
+                <h3>Sportsbook</h3>
+                <p>Taruhan olahraga favorit Anda, mulai dari sepak bola sampai e-sports!</p>
+            </div>
+        </div>
+        <a href="#" class="cta">Daftar Sekarang</a>
+    </div>
+    <footer>
+        &copy; 2024 Judol. All rights reserved.
+    </footer>
+</body>
+</html>
